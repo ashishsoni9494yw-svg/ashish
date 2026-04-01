@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashishsoni</title>
+    <style>
+        /* Shared CSS from index.html */
+        :root {
+            --primary: #6e48aa;
+            --secondary: #9d50bb;
+            --accent: #4776E6;
+            --dark: #1a1a2e;
+            --light: #f8f9fa;
+            --success: #4cc9f0;
+            --warning: #f72585;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--dark);
+            color: var(--light);
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            padding: 1rem 2rem;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: white;
+            text-decoration: none;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+        }
+
+        .nav-links li {
+            margin-left: 2rem;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+        }
+
+        .nav-links a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .btn {
+            display: inline-block;
+            background: linear-gradient(to right, var(--accent), var(--success));
+            color: white;
+            padding: 0.8rem 2rem;
+            border: none;
+            border-radius: 50px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            box-shadow: 0 4px 15px rgba(71, 118, 230, 0.4);
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(71, 118, 230, 0.6);
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 3rem;
+            font-size: 2.5rem;
+            color: var(--light);
+        }
+
+        footer {
+            background-color: #0f0f1a;
+            padding: 3rem 10%;
+            text-align: center;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            margin: 2rem 0;
+        }
+
+        .footer-links li {
+            margin: 0 1rem;
+        }
+
+        .footer-links a {
+            color: var(--light);
+            text-decoration: none;
+            opacity: 0.7;
+            transition: all 0.3s ease;
+        }
+
+        .footer-links a:hover {
+            opacity: 1;
+            color: var(--accent);
+        }
+
+        .copyright {
+            opacity: 0.6;
+            font-size: 0.9rem;
+        }
+
+        /* Gallery specific styles */
+        .gallery {
+            padding: 5rem 10%;
+        }
+
+        .media-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .media-item {
+            background-color: rgba(255, 255, 255, 0.05);
+            border-radius: 8px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .media-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+            border-color: var(--accent);
+        }
+
+        .media-item img, .media-item video {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .media-caption {
+            padding: 1.5rem;
+        }
+
+        .media-caption h3 {
+            color: var(--success);
+            margin-bottom: 0.5rem;
+        }
+
+        .media-caption p {
+            opacity: 0.8;
+            font-size: 0.9rem;
+        }
+
+        .back-btn {
+            display: inline-block;
+            margin-top: 2rem;
+            text-decoration: none;
+            color: var(--accent);
+            font-weight: 600;
+        }
+
+        @media (max-width: 768px) {
+            .media-container {
+                grid-template-columns: 1fr;
+            }
+            
+            .nav-links {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">Ashishsoni</a>
+            <ul class="nav-links">
+                <li><a href="index.html#features">Features</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="#login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="gallery">
+        <h2 class="section-title">our solution</h2>
+        <p style="text-align: center; max-width: 800px; margin: 0 auto 3rem;">
+            📊Read carefully whatever is written in this website Other Inquiry First Video.💻
+        </p>
+        <title>link</title>
+        @vipc.odes <image src="vv.jpg"height=200
+
+        <div class="media-container">
+            <!-- Image 1 -->
+            <div class="media-item">
+                 <div class="media-caption">
+                     <image src="aaa.jpg"
+                    <h3>vipc.odes</h3>
+                    <p>So let's go quickly and follow the codes on Instagram and send a message for any website.</p>
+                </div>
+            </div>
+
+            <!-- Video 1 -->
+            <div class="media-item">
+                <video controls> <source src="deshant.mp4"
+                </video>
+                <div class="media-caption">
+                    <h3>create your website</h3>
+                    <p>If you guys also want to make a website then quickly go to my Instagram ID and follow it and message me and create your website for business</p>
+                </div>
+            </div>
+
+            <!-- Image 2 -->
+            <div class="media-item">
+                <img src="zz.jpg">
+                <div class="media-caption">
+                    <h3>AI knowledge</h3>
+                    <p>If you also do not have knowledge about this, then you can get knowledge about it by looking at this photo.</p>
+                </div>
+            </div>
+
+            <!-- Video 2 -->
+            <div class="media-item">
+                <video controls>
+                <source src="syy.mp4">
+                </video>
+                <div class="media-caption">
+                   <h3>coding</h3>
+                    <p>Why you also need coding knowledge Want to learn coding skills.</p>
+                </div>
+            </div>
+
+            <!-- Image 3 -->
+            <div class="media-item">
+                <img src="bv.jpg">
+                <div class="media-caption">
+                    <h3>full stack developer</h3>
+                    <p>Learn full stack developer coding language, this photo will tell you where to start.</p>
+                </div>
+            </div>
+
+            <!-- Image 4 -->
+            <div class="media-item">
+                <img src="soni.jpg">
+                <div class="media-caption">
+                    <h3>20 stock for invest long time</h3>
+                    <p>You can invest in these 20 stocks for the long term.</p>
+                </div>
+            </div>
+        </div>
+        <title>link</title>
+               follow Instagram account
+               _____________
+                     🌐🌐🌐
+       https://www.instagram.com/vipc.odes?igsh=MWlkbjU5a2dseTZvZQ==
+         
+         
+
+        <center>
+            <a href="index.html" class="btn back-btn">Back to Home</a>
+        </center>
+    </section>
+
+    <footer>
+        <p>©   Solutions. All rights reserved.</p>
+        <ul class="footer-links">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+        <p class="copyright">develop by Ashish Soni</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Smooth scrolling for anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+
+            // Lazy loading for images and videos
+            const mediaObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const media = entry.target;
+                        if (media.tagName === 'IMG' && media.dataset.src) {
+                            media.src = media.dataset.src;
+                        }
+                        if (media.tagName === 'VIDEO' && media.children.length > 0) {
+                            Array.from(media.children).forEach(source => {
+                                if (source.tagName === 'SOURCE' && source.dataset.src) {
+                                    source.src = source.dataset.src;
+                                }
+                            });
+                            media.load();
+                        }
+                        mediaObserver.unobserve(media);
+                    }
+                });
+            }, { rootMargin: '200px' });
+
+            document.querySelectorAll('img[data-src], video source[data-src]').forEach(media => {
+                mediaObserver.observe(media);
+            });
+        });
+    </script>
+</body>
+</html>
